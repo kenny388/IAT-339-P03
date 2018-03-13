@@ -27,7 +27,7 @@ body{
 }
 
 
-.content {
+.box {
 	position: relative;
 	background-color: rgba(158, 146, 143, 0.15);
 	/* color: rgb(230, 230, 230); */
@@ -45,17 +45,18 @@ body{
 	/* left: 15%; */
 	/* border-radius: 10px; */
 	padding:2em;
-	
-
-
 
 }
 
-.content h2 {
+.bio {
+	margin-top: 15em;
+}
+
+.box h2 {
 	/* text-align: center; */
 	margin-bottom: 1em;
 }
-.content p {
+.box p {
 	max-width: 40%;
 
 }
