@@ -13,8 +13,9 @@
 }
 
 body{
-	background-color: #F7EEE9;
-	background-image: url("../img/chair_2.jpg");
+	margin:0em;
+	background-color: #FFFFFF;
+	/* background-image: url("../img/chair_2.jpg"); */
 	background-repeat: no-repeat;
 	background-size:cover;
 	/* background-attachment: fixed; */

@@ -28,21 +28,67 @@ float: right;
 	opacity: 0.6;
 }
 
+.topBar {
+	position: fixed;
+	z-index: 2;
+	display: block;
+	width: 100%;
+	background-color: #FFFAF6;
+	height: 10em;
+	/* margin-top: -10em; */
+	box-shadow: 0px 0px 25px #EBE3DD;
+	transition: all ease .5s;
+}
+
+.shrink {
+  height: 5em;
+  transition: all ease .5s;
+	/* all ease .5s; */
+}
+
+.shrink .kclogo {
+	margin-top: 1em;
+	position: relative;
+	float: left;
+	margin-left: 6%;
+	transition: all ease .5s;
+}
+
+.shrink .logoImage {
+width: 3em;
+height: 3em;
+transition: all ease .5s;
+}
+
+.shrink .container {
+margin-top: 1em;
+transition: all ease .5s;
+
+width: 35%;
+font-size: 0.7em;
+
+/* margin-left: 30%; */
+margin-right: 3%;
+	/* justify-content: center; */
+	/* align-self: stretch; */
+}
 
 .container {
 	position: relative;
 	float: right;
   display: flex;
 	flex-direction: row;
-	margin-top: 3em;
+	margin-top: 6em;
   /* border-style: solid; */
 	flex-wrap: wrap;
-	width: 50%;
+	width: 40%;
 	font-size: 0.8em;
 
-	margin-left: 40%;
+	/* margin-left: 30%; */
+	margin-right: 3%;
 	  /* justify-content: center; */
 		/* align-self: stretch; */
+		transition: all ease .5s;
 }
 
 .item1 a:hover {
@@ -50,7 +96,7 @@ float: right;
 	padding-bottom: 6px;
 }
 
-.dropbtn:hover {
+.item2 a:hover {
 	border-bottom: 2px solid #A8A79F;
 	padding-bottom: 6px;
 }
@@ -73,8 +119,8 @@ float: right;
   flex-shrink: 1; /* default 1 */
 	top:12em;
 	/* left:0%; */
-	width:15%;
-	min-width: 13em;
+	width:8%;
+	min-width: 5em;
 	height:5em;
 	line-height: 5em;
 	/* z-index:5; */
@@ -88,32 +134,10 @@ float: right;
 }
 .item2 {
   flex-shrink: 2; /* default 1 */
-
 	top:12em;
 	/* left:0%; */
-	width:15%;
-	min-width: 13em;
-	height:5em;
-	align-items: center;
-	line-height: 5em;
-	/* line-height: 5em; */
-	/* z-index:5; */
-	/* padding:1.9em; */
-	/* border: none 2px solid; */
-	/* border: none 0px solid; */
-	color: black;
-	text-align:center;
-	/* background-color:#404040; */
-	flex-grow: 1;
-	align-items: center;
-
-}
-.item3 {
-  flex-shrink: 3; /* default 1 */
-	top:12em;
-	/* left:0%; */
-	width:15%;
-	min-width: 13em;
+	width:8%;
+	min-width: 5em;
 	height:5em;
 	line-height: 5em;
 	/* z-index:5; */
@@ -128,8 +152,41 @@ float: right;
   flex-shrink: 4; /* default 1 */
 	top:12em;
 	/* left:0%; */
-	width:15%;
-	min-width: 13em;
+	width:8%;
+	min-width: 5em;
+	height:5em;
+	line-height: 5em;
+	/* z-index:5; */
+	/* padding:1.9em; */
+	/* border: none 2px solid; */
+	color: black;
+	text-align:center;
+	/* background-color:#404040; */
+	flex-grow: 1;
+
+}
+.item3 {
+  flex-shrink: 3; /* default 1 */
+	top:12em;
+	/* left:0%; */
+	width:8%;
+	min-width: 5em;
+	height:5em;
+	line-height: 5em;
+	/* z-index:5; */
+	/* padding:1.9em; */
+	/* border: none 2px solid; */
+	color: black;
+	text-align:center;
+	/* background-color:#404040; */
+	flex-grow: 1;
+}
+.item4 {
+  flex-shrink: 4; /* default 1 */
+	top:12em;
+	/* left:0%; */
+	width:8%;
+	min-width: 5em;
 	height:5em;
 	line-height: 5em;
 	/* z-index:5; */
@@ -145,8 +202,8 @@ float: right;
 	flex-shrink: 4; /* default 1 */
 	top:12em;
 	/* left:0%; */
-	width:15%;
-	min-width: 13em;
+	width:8%;
+	min-width: 5em;
 	height:5em;
 	line-height: 5em;
 	/* z-index:5; */
@@ -207,10 +264,15 @@ a:active, a:hover {
 }
 
 .kclogo{
-	margin-top: 0.8%;
+	margin-top: 1.5em;
 	position: relative;
 	float: left;
-	margin-left: 4.5%;
+	margin-left: 6%;
+	transition: all ease .5s;
+}
+
+.logoImage {
+	transition: all ease .5s;
 }
 
 .header-img {

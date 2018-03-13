@@ -9,8 +9,6 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/home.css">
   <link rel="stylesheet" href="css/grid.css">
-  <link rel="stylesheet" href="css/homeGrid.css">
-  <link rel="stylesheet" href="css/homeGridExtra.css">
 
 
 </head>
@@ -18,6 +16,9 @@
 
 
 <body>
+
+<nav id="navigation" class="topBar">
+
   <div class="kclogo">
     <a href="Homepage.html">
       <img alt="XD" class="logoImage" src="img/KC_logo.png" width="90" height="90">
@@ -30,27 +31,26 @@
 
     <div class="item1"><strong><a href="Homepage.html">HOME</a></strong></div>
 
-    <div class="dropdown">
+    <div class="item2"><strong><a href="contactInfo.html">PROJ.s</a></strong></div>
+    <!-- <div class="dropdown">
       <strong><a class="item2, dropbtn" href="ProductListing-all.html" onclick="myFunction()" >SHOPPING</a></strong>
       <div id="myDropdown" class="dropdown-content">
         <a href="ProductListing-chairs.html">CHAIR</a>
         <a href="ProductListing-sofa.html">SOFA</a>
         <a href="ProductListing-sofa.html">BED</a>
       </div>
-    </div>
+    </div> -->
 
-    <div class="item3"><strong><a href="contactInfo.html">CONTACT INFO</a></strong></div>
+    <div class="item3"><strong><a href="contactInfo.html">GALLERY</a></strong></div>
 
-    <div class="item4"><strong><a href="hours.html">HOURS & LOCATION</a></strong></div>
+    <div class="item4"><strong><a href="hours.html">CONTACT</a></strong></div>
 
-    <div class="item5"><strong><a href="news.html">NEWS</a></strong></div>
 
   </div>
 </div>
 
-<div class="BgImgWrap">
-    <img alt="XD" class="chairBgImage" src="img/chair_2_cropped.png" width="600">
-</div>
+</nav>
+
   <!-- <div class="content">
   <h2>"We Design Life Styles"</h2>
   <p>Our company as founded in 1982 by President and CEO Gnahz Lirpa.
@@ -98,9 +98,11 @@ window.onclick = function(event) {
 <!--End Of Content-->
 
 <!--footer bar-->
+
+
+
 <div id="footer">
 
-  <!-- <hr> -->
 
   <div id="footerlinkleft">
     <a href="Styleguide.HTML">StyleGuide</a><br>
@@ -120,8 +122,12 @@ window.onclick = function(event) {
 
 
 </div>
+
+<script src="jquery-3.3.1.js"></script>
+
 <script src="dropbtn.js"></script>
 <script src="showButton.js"></script>
+<script src="shrink.js"></script>
 
 
 </body>
