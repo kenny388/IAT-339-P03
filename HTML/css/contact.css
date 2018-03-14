@@ -61,11 +61,11 @@ body {
 
 .projectTitles {
   position: relative;
-  display: block;
+  display: inline-block;
   /* background-color: grey; */
   /* width: 10%; */
   margin-left: 5%;
-  margin-top: 2em;
+  margin-top: 7em;
   /* padding: 2em 5em; */
 }
 
@@ -74,8 +74,8 @@ body {
   flex-flow: row;
   flex-wrap: wrap;
   flex-grow: 1;
-  width: 90%;
-  margin-left: 5%;
+  width: 80%;
+  margin-left: 10%;
   justify-content: space-between;
   /* margin-left: 20%; */
 }
@@ -91,8 +91,9 @@ body {
 }
 
 .projectAnalyse {
-  width: 90%;
-  margin-left: 5%;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 5em;
 }
 
 .flexImage {
@@ -100,7 +101,7 @@ body {
   height: auto;
 }
 
-.item1 a {
+.item2 a {
   border-bottom: 2px solid #A8A79F;
   padding-bottom: 6px;
 }
