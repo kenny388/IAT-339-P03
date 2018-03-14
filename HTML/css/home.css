@@ -46,7 +46,7 @@ body {
 .bio {
   position: relative;
   display: block;
-  margin-top: 15em;
+  margin-top: 19em;
   margin-left: 2em;
 }
 
@@ -83,11 +83,16 @@ body {
 .projectImages {
   /* width: 30%; */
   position: relative;
-  max-width: 28%;
+  max-width: 33%;
   min-width: 20em;
   /* min-width: 15em; */
   /* height: auto; */
-  margin: 1%;
+  /* margin: 1%; */
+}
+
+.projectAnalyse {
+  width: 90%;
+  margin-left: 5%;
 }
 
 .flexImage {
