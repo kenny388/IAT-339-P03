@@ -1,0 +1,118 @@
+/*Content*/
+
+#Content {
+  position: relative;
+  top: 370px;
+  left: 25.6%;
+  width: 63%;
+  height: 30px;
+  z-index: 1;
+  padding: 20px;
+  border: none 2px solid;
+  /* background-color:#FFFFFF; */
+}
+
+body {
+  margin: 0em;
+  background-color: #FFFFFF;
+  /* background-image: url("../img/chair_2.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center top;
+  /* background-position-x: 1000%; */
+  /* height: 100%; */
+  /* width: 100%; */
+}
+
+.box {
+  position: relative;
+  background-color: rgba(158, 146, 143, 0.15);
+  /* color: rgb(230, 230, 230); */
+  color: black;
+  display: inline-block;
+  /* padding: 5em 4em; */
+  width: 100%;
+  height: 30em;
+  /* margin-top: 10em; */
+  align-items: center;
+  line-height: 1.7em;
+  margin-top: 10em;
+  /* left: 15%; */
+  /* border-radius: 10px; */
+  /* padding:2em; */
+}
+
+.bio {
+  position: relative;
+  display: block;
+  margin-top: 19em;
+  margin-left: 2em;
+}
+
+.box h2 {
+  /* text-align: center; */
+  margin-bottom: 1em;
+}
+
+.box p {
+  max-width: 50%;
+}
+
+.projectTitles {
+  position: relative;
+  display: block;
+  /* background-color: grey; */
+  /* width: 10%; */
+  margin-left: 5%;
+  margin-top: 2em;
+  /* padding: 2em 5em; */
+}
+
+.ImageContainer {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: 90%;
+  margin-left: 5%;
+  justify-content: space-between;
+  /* margin-left: 20%; */
+}
+
+.projectImages {
+  /* width: 30%; */
+  position: relative;
+  max-width: 33%;
+  min-width: 20em;
+  /* min-width: 15em; */
+  /* height: auto; */
+  /* margin: 1%; */
+}
+
+.projectAnalyse {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.flexImage {
+  width: 100%;
+  height: auto;
+}
+
+.item1 a {
+  border-bottom: 2px solid #A8A79F;
+  padding-bottom: 6px;
+}
+
+/*The Prperty tax title*/
+
+#sidenavtext h3 {
+  margin: 0 auto;
+  margin-bottom: 1.17rem;
+  margin-top: 1rem;
+}
+
+#footer {
+  top: 100em;
+}
