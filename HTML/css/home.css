@@ -139,3 +139,18 @@ body {
 #footer {
   top: 100em;
 }
+
+@media screen and (max-width: 934px) {
+  .realBio {
+    padding: 3em;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .realBio {
+    padding: 2em;
+  }
+  .realBio p {
+    max-width: 100%;
+  }
+}
