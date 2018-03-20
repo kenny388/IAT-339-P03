@@ -117,3 +117,15 @@ body {
 #footer {
   top: 100em;
 }
+
+@media screen and (max-width: 1080px) {
+  .projectImages {
+    max-width: 49%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .projectImages {
+    max-width: 100%;
+  }
+}

@@ -11,7 +11,9 @@ $(document).ready(function() {
     else {
     $('#navigation').removeClass('shrink');
   }
-    }
+} else {
+  $('#navigation').removeClass('shrink');
+}
 
 // });
   });
