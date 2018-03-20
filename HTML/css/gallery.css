@@ -74,9 +74,11 @@ body {
   flex-flow: row;
   flex-wrap: wrap;
   flex-grow: 1;
-  width: 80%;
-  margin-left: 10%;
-  justify-content: space-between;
+  /* background-color: grey; */
+  width: 90%;
+  height: 40em;
+  margin-left: 5%;
+  justify-content: flex-start;
   /* margin-left: 20%; */
 }
 
@@ -101,7 +103,48 @@ body {
   height: auto;
 }
 
-.item2 a {
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-left: 5%;
+  /* padding: 0 0.25em; */
+}
+
+/* Create four equal columns that sits next to each other */
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  /* padding: 0 0.25em; */
+}
+
+.column img {
+  /* margin-top: 8px; */
+  vertical-align: middle;
+  width: 95%;
+  margin-bottom: 1em;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media screen and (max-width: 1000px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.item3 a {
   border-bottom: 2px solid #A8A79F;
   padding-bottom: 6px;
 }
