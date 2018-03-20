@@ -33,7 +33,8 @@ body {
   /* background-repeat: no-repeat; */
   /* background-size: 100% auto; */
   background: url(../img/gallery/atorias.jpg) no-repeat scroll center top transparent;
-  background-size: 100em auto;
+  /* background-size: 100em auto; */
+  background-size: cover;
   /* color: rgb(230, 230, 230); */
   color: black;
   display: block;
@@ -137,12 +138,19 @@ body {
 }
 
 #footer {
-  top: 100em;
+  top: 50em;
 }
 
 @media screen and (max-width: 934px) {
   .realBio {
     padding: 3em;
+  }
+}
+
+@media screen and (max-width: 816px) {
+  .box {
+    background-size: 100em auto;
+    height: 35em;
   }
 }
 
