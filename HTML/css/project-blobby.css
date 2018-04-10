@@ -130,9 +130,9 @@ body {
   flex-flow: row;
   flex-wrap: wrap;
   flex-grow: 1;
-  width: 80%;
-  margin-top: 1em;
-  margin-left: 10%;
+  width: 100%;
+  margin-top: 10em;
+  /* margin-left: 10%; */
   justify-content: space-between;
   /* margin-left: 20%; */
 }
@@ -140,7 +140,7 @@ body {
 .projectImages {
   /* width: 30%; */
   position: relative;
-  max-width: 33%;
+  max-width: 49%;
   min-width: 20em;
   /* min-width: 15em; */
   /* height: auto; */
@@ -163,6 +163,14 @@ body {
 }
 
 .para2 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin-top: 10em;
+}
+
+.para3 {
   position: relative;
   display: inline-block;
   width: 100%;
@@ -221,6 +229,31 @@ body {
   margin-top: 0em;
 }
 
+.AnalyseTextBlock3 {
+  float: left;
+  width: 47%;
+  /* padding-left: 15%; */
+  /* padding-top: 3em; */
+  /* padding-right: 3em; */
+}
+
+.AnalyseTextBlock3 h3 {
+  margin-top: 0em;
+}
+
+.AnalyseImageBlock3 {
+  float: Right;
+  width: 47%;
+  display: flex;
+  flex-flow: column;
+  padding-left: 3em;
+}
+
+.AnalyseImageBlock3 img {
+  width: 100%;
+  height: auto;
+}
+
 .flexImage {
   width: 100%;
   height: auto;
@@ -240,17 +273,24 @@ body {
 }
 
 #footer {
-  top: 100em;
+  margin-top: 10em;
 }
 
-@media screen and (max-width: 1080px) {
-  .projectImages {
-    max-width: 49%;
+@media screen and (max-width: 1150px) {
+  .projectContext {
+    padding-top: 3em;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .projectContext {
+    padding-top: 1em;
   }
 }
 
 @media screen and (max-width: 720px) {
-  .projectImages {
+  /* .projectImages {
     max-width: 100%;
-  }
+  } */
 }
