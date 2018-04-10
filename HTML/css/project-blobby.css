@@ -38,11 +38,11 @@ body {
 }
 
 .blobbyVideo {
-  width: 60%;
-  height: 33.5vw;
-  margin-left: 20%;
-  float: left;
-  clear: left;
+  float: right;
+  clear: right;
+  width: 40%;
+  height: 22.33vw;
+  margin-right: 5%;
 }
 
 .box {
@@ -79,16 +79,49 @@ body {
   max-width: 50%;
 }
 
+.Line {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
 .projectTitles {
   position: relative;
   display: inline-block;
   /* background-color: grey; */
   /* width: 10%; */
   float: left;
-  width: 90%;
+  width: 95%;
   margin-left: 5%;
   margin-top: 2em;
   /* padding: 2em 5em; */
+}
+
+.projectContext {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  /* background-color: grey; */
+  /* width: 10%; */
+  float: left;
+  width: 45%;
+  height: 22.33vw;
+  padding-top: 6em;
+  margin-left: 5%;
+  margin-top: 0em;
+  /* padding: 2em 5em; */
+}
+
+.contextBlock {
+  /* margin: 3em; */
+  width: 25%;
+}
+
+.contetTitles {
+  font-weight: bold;
 }
 
 .ImageContainer {
