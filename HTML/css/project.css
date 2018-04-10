@@ -272,7 +272,7 @@ body {
 }
 
 #footer {
-  top: 100em;
+  top: 10em;
 }
 
 @media screen and (max-width: 700px) {
