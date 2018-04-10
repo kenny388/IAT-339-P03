@@ -28,11 +28,11 @@ body {
 .box {
   position: relative;
   /* background-color: rgba(158, 146, 143, 0.15); */
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 0.5);
   /* background-image: url("../img/gallery/atorias.jpg"); */
   /* background-repeat: no-repeat; */
   /* background-size: 100% auto; */
-  background: url(../img/gallery/atorias.jpg) no-repeat scroll center top transparent;
+  /* background: url(../img/gallery/atorias.jpg) no-repeat scroll center top transparent; */
   /* background-size: 100em auto; */
   background-size: cover;
   /* color: rgb(230, 230, 230); */
@@ -63,7 +63,7 @@ body {
 .realBio {
   position: relative;
   background-color: rgba(255, 255, 255, 1);
-  box-shadow: 0px 0px 18px 0px #888888;
+  box-shadow: 0px 10px 17px 0px #AAAAAA;
   /* background-color: rgba(230, 230, 230, 0.5); */
   height: 15em;
   align-items: center;
