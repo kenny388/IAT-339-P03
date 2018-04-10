@@ -143,9 +143,9 @@ body {
   margin-top: 1rem;
 }
 
-#footer {
-  top: 50em;
-}
+/* #footer {
+  top: 0em;
+} */
 
 @media screen and (max-width: 934px) {
   .realBio {
