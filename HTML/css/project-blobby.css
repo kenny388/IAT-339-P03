@@ -37,6 +37,14 @@ body {
   /* background-size: cover; */
 }
 
+.blobbyVideo {
+  width: 60%;
+  height: 33.5vw;
+  margin-left: 20%;
+  float: left;
+  clear: left;
+}
+
 .box {
   position: relative;
   background-color: rgba(158, 146, 143, 0.15);
@@ -76,6 +84,8 @@ body {
   display: inline-block;
   /* background-color: grey; */
   /* width: 10%; */
+  float: left;
+  width: 90%;
   margin-left: 5%;
   margin-top: 2em;
   /* padding: 2em 5em; */
