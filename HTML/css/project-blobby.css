@@ -315,6 +315,22 @@ body {
   }
   .projectImages {
     max-width: 100%;
+    min-width: 0%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .projectAnalyse {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .AnalyseImageBlock3 {
+    width: 100%;
+    padding-left: 0em;
+    margin-bottom: 2em;
+  }
+  .AnalyseTextBlock3 {
+    width: 100%;
   }
 }
 
@@ -326,5 +342,23 @@ body {
   .contextBlock {
     /* margin: 3em; */
     width: 100%;
+  }
+  .AnalyseImageBlock1 {
+    width: 100%;
+    padding-left: 0em;
+    margin-bottom: 2em;
+  }
+  .AnalyseTextBlock1 {
+    width: 100%;
+  }
+  .AnalyseImageBlock2 {
+    width: 100%;
+    padding-left: 0em;
+    margin-left: 0em;
+    margin-bottom: 2em;
+  }
+  .AnalyseTextBlock2 {
+    width: 100%;
+    padding-left: 0em;
   }
 }
