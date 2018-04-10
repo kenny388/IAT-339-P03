@@ -20,6 +20,7 @@ body {
   background-size: cover;
   /* background-attachment: fixed; */
   background-position: center top;
+  letter-spacing: 0.05em;
   /* background-position-x: 1000%; */
   /* height: 100%; */
   /* width: 100%; */
@@ -147,9 +148,77 @@ body {
 }
 
 .projectAnalyse {
-  width: 60%;
-  margin-left: 20%;
+  display: inline-block;
+  width: 70%;
+  margin-left: 15%;
   margin-top: 5em;
+  /* margin-top: 10em; */
+}
+
+.para1 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.para2 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin-top: 10em;
+}
+
+.AnalyseTextBlock1 {
+  float: left;
+  width: 47%;
+  padding-left: 15%;
+  /* padding-top: 3em; */
+  /* padding-right: 3em; */
+}
+
+.AnalyseTextBlock1 h3 {
+  margin-top: 0em;
+}
+
+.AnalyseImageBlock1 {
+  float: Right;
+  width: 47%;
+  display: flex;
+  flex-flow: column;
+  padding-left: 3em;
+}
+
+.AnalyseImageBlock1 img {
+  width: 100%;
+  height: auto;
+}
+
+.AnalyseImageBlock2 {
+  float: left;
+  width: 47%;
+  display: flex;
+  flex-flow: column;
+  /* padding-right: 3em; */
+}
+
+.AnalyseImageBlock2 img {
+  width: 100%;
+  height: auto;
+}
+
+.AnalyseTextBlock2 {
+  float: right;
+  width: 47%;
+  padding-right: 10%;
+  /* padding-top: 3em; */
+  /* padding-right: 3em; */
+  padding-left: 3em;
+}
+
+.AnalyseTextBlock2 h3 {
+  margin-top: 0em;
 }
 
 .flexImage {

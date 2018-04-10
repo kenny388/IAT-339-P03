@@ -18,6 +18,11 @@ body {
   float: right;
 }
 
+.col5-10 {
+  width: 50%;
+  height: auto;
+}
+
 .showButton {
   display: none;
   float: right;
