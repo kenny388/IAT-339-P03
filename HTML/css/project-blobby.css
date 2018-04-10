@@ -43,6 +43,8 @@ body {
   width: 40%;
   height: 22.33vw;
   margin-right: 5%;
+  /* frameborder = "0";  */
+  border: 0px red none;
 }
 
 .box {
