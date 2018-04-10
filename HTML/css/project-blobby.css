@@ -156,6 +156,7 @@ body {
 }
 
 .para1 {
+  margin-top: 5em;
   position: relative;
   display: inline-block;
   width: 100%;
@@ -181,7 +182,7 @@ body {
 .AnalyseTextBlock1 {
   float: left;
   width: 47%;
-  padding-left: 15%;
+  /* padding-left: 10%; */
   /* padding-top: 3em; */
   /* padding-right: 3em; */
 }
@@ -285,12 +286,45 @@ body {
 
 @media screen and (max-width: 910px) {
   .projectContext {
-    padding-top: 1em;
+    padding-top: 0em;
   }
 }
 
-@media screen and (max-width: 720px) {
-  /* .projectImages {
+@media screen and (max-width: 840px) {
+  .projectContext {
+    width: 95%;
+  }
+  .blobbyVideo {
+    float: left;
+    clear: left;
+    width: 90%;
+    height: 50.625vw;
+    margin-left: 5%;
+  }
+  .AnalyseTextBlock1 {
+    padding-left: 0%;
+  }
+  .AnalyseImageBlock1 {
+    padding-left: 0em;
+  }
+  .AnalyseTextBlock2 {
+    padding-right: 0%;
+  }
+  .ImageContainer {
+    flex-flow: column;
+  }
+  .projectImages {
     max-width: 100%;
-  } */
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .projectContext {
+    flex-flow: column;
+    height: 20em;
+  }
+  .contextBlock {
+    /* margin: 3em; */
+    width: 100%;
+  }
 }
