@@ -64,8 +64,8 @@ body {
   display: inline-block;
   /* background-color: grey; */
   /* width: 10%; */
-  margin-left: 5%;
-  margin-top: 7em;
+  margin-left: 10%;
+  margin-top: 6em;
   /* padding: 2em 5em; */
 }
 
@@ -77,17 +77,174 @@ body {
   width: 80%;
   margin-left: 10%;
   justify-content: space-between;
+  margin-top: 5em;
   /* margin-left: 20%; */
 }
 
-.projectImages {
-  /* width: 30%; */
+.projectImages1 {
+  width: 29%;
   position: relative;
-  max-width: 33%;
-  min-width: 20em;
-  /* min-width: 15em; */
-  /* height: auto; */
-  /* margin: 1%; */
+  height: 22vw;
+  background-image: url("../img/AOBLogo.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  /* filter: grayscale(70%); */
+}
+
+.hiddenBox {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  /* transition: FadeOut 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  opacity: 0.0; */
+  transition: all ease .3s;
+  opacity: 0;
+}
+
+.projectImages1 h2 {
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.projectImages1 h3 {
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.hiddenBox:hover {
+  /* animation: Fade 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1; */
+  /* animation-fill-mode: forwards; */
+  transition: all ease .3s;
+  opacity: 1;
+}
+
+@-webkit-keyframes Fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes Fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes Fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes Fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes FadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes FadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes FadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes FadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.projectImages2 {
+  width: 29%;
+  position: relative;
+  height: 22vw;
+  background-image: url("../img/KAKTUSlogo.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* filter: grayscale(50%); */
+}
+
+.projectImages2 h2 {
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.projectImages2 h3 {
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.projectImages3 {
+  width: 29%;
+  position: relative;
+  height: 22vw;
+  background-image: url("../img/gallery/atorias.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: grayscale(100%); */
+}
+
+.projectImages3 h2 {
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.projectImages3 h3 {
+  color: white;
+  text-align: center;
+  align-items: center;
 }
 
 .projectAnalyse {
@@ -119,9 +276,9 @@ body {
 }
 
 @media screen and (max-width: 1080px) {
-  .projectImages {
+  /* .projectImages {
     max-width: 49%;
-  }
+  } */
 }
 
 @media screen and (max-width: 720px) {
