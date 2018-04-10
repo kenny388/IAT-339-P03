@@ -172,7 +172,7 @@ h3 {
   clear: left;
   position: relative;
   display: flex;
-  flex-direction: flow;
+  /* flex-direction: flow; */
   /* margin-top: 22em; */
   /* border-style: solid; */
   flex-wrap: wrap;

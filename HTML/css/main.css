@@ -328,36 +328,6 @@ a:active, a:hover {
   width: 90%;
 }
 
-#sidenav {
-  position: flex;
-  top: 17em;
-  left: 0%;
-  width: 22%;
-  height: 1020px;
-  z-index: 1;
-  padding: 0px;
-  text-align: center;
-  border-style: solid;
-  color: black;
-}
-
-#sidenavtext {
-  position: relative;
-  top: 0px;
-  left: 5%;
-  z-index: 1;
-  padding: 15%;
-  text-align: left;
-  border: none;
-  color: black;
-}
-
-#sidenavtextelement {
-  /* font-size: 1.3em; */
-  position: relative;
-  margin-top: 1.9em;
-}
-
 .pic1 {
   position: relative;
   width: 65%;
@@ -430,62 +400,6 @@ input[type=text] {
 
 .buttonBuy {
   border-radius: 6px;
-}
-
-.dropbtn {
-  /* background-color: #3498DB;
-		    color: white;
-		    padding: 16px;
-		    font-size: 16px;
-		    border: none;
-		    cursor: pointer; */
-}
-
-/* Dropdown button on hover & focus */
-
-.dropbtn:hover, .dropbtn:focus {
-  /* background-color: #2980B9; */
-}
-
-/* The container <div> - needed to position the dropdown content */
-
-.dropdown {
-  /* position: relative; */
-  /* display: inline-block; */
-  flex-shrink: 2;
-  margin-top: 2em;
-  width: 15%;
-  min-width: 13em;
-  text-align: center;
-  flex-grow: 1;
-}
-
-/* Dropdown Content (Hidden by Default) */
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  /* margin-right: 50em; */
-  /* margin-left: auto; */
-  /* background-color: rgba(247,238,233,0.9); */
-  min-width: 15%;
-  box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  margin-top: 1.83em;
-  margin-left: 2.5%;
-  /* border-style: solid; */
-  /* border: 3px, solid, black; */
-}
-
-/* Links inside the dropdown */
-
-.dropdown-content a {
-  color: black;
-  padding: 15%;
-  text-decoration: none;
-  display: block;
-  border: 3px, solid, white;
-  /* border: solid; */
 }
 
 @media (min-width: 990px) {
