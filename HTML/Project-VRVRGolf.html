@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>Project-Kaboom</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/project-vrvrgolf.css">
+  <link rel="stylesheet" href="css/grid.css">
+
+
+</head>
+
+
+
+<body>
+
+  <nav id="navigation" class="topBar">
+
+    <div class="kclogo">
+      <a href="Homepage.html">
+      <img alt="XD" class="logoImage" src="img/KC_logo.png" width="90" height="90">
+    </a>
+    </div>
+    <div class="Name">
+      <a href="Homepage.html"><h1>KENNY CHEUNG</h1></a>
+    </div>
+
+    <div class="showButton"><a onclick="myFunction()"><img alt="XD" class="DropArrowImage" src="img/menu3.png"></a></div>
+    <div id="container">
+      <div class="container">
+
+        <div class="item1"><strong><a href="Homepage.html">HOME</a></strong></div>
+
+        <div class="item2"><strong><a href="Project.html">WORK</a></strong></div>
+
+        <div class="item3"><strong><a href="Gallery.html">GALLERY</a></strong></div>
+
+        <div class="item4"><strong><a href="Contact.html">CONTACT</a></strong></div>
+
+
+      </div>
+    </div>
+
+  </nav>
+
+
+  <!-- <div class="content">
+
+</div> -->
+
+  <!-- BIO BOX -->
+  <!-- <div class="box">
+
+    <div class="bio">
+      <h2>About Me</h2>
+      <p>Welcome! My name is Kenny Cheung. I am a student in the SFU Interactive Art & Technology program! I am passionate about 3D modeling and game design. Please feel free to browse around my porfolio</p>
+    </div>
+  </div> -->
+  <div class="contextImage">
+
+  </div>
+
+
+  <div class="projectTitles">
+    <h1 class="projectTitleBig">VRVR Golf</h1>
+    <h3 class="projectTitleSmol">Very Reasonable Virtual Reality Golf - VR Game</h3>
+  </div>
+
+  <hr class="Line">
+
+  <div class="projectContext">
+    <div class="contextBlock">
+      <p class="contetTitles">Context</p>
+      <p>Virtual Reality Game for Oculus Rift developed with Unity Engine</p>
+    </div>
+    <div class="contextBlock">
+      <p class="contetTitles">Role</p>
+      <p>Unity Coder, Environment and visual effect design, User experience</p>
+    </div>
+    <div class="contextBlock">
+      <p class="contetTitles">SQUAREONE Studio</p>
+      <p>Kenny Cheung, Tamiko Tadeo, Liah Castillo, Sherry Wang</p>
+    </div>
+  </div>
+
+  <iframe class="blobbyVideo" width="16" height="9" src="https://www.youtube.com/embed/DwFcEHE132A"></iframe>
+
+  <div class="projectAnalyse">
+    <div class="para1">
+      <div class="AnalyseTextBlock1">
+        <h3>Description</h3>
+        <p>Very Reasonable Virtual Reality
+          Golf (or VRVR Golf for short) is
+          a VR golf experience for Oculus Rift created in Unity Engine. The game provides a sandbox
+          experience where players can
+          play golf in an unusual
+          environment with plenty of interactable objects. </p>
+      </div>
+      <div class="AnalyseImageBlock1">
+        <img alt="XD" class="floatLeft" src="img/VRVRGolf/poster.jpg" width="800" height="450">
+      </div>
+      </div>
+      <div class="para2">
+        <div class="AnalyseImageBlock2">
+          <img alt="XD" class="floatLeft" src="img/VRVRGolf/crystal.png" width="800" height="450">
+          <img alt="XD" class="floatLeft" src="img/VRVRGolf/pic1.jpg" width="800" height="450">
+
+      </div>
+          <div class="AnalyseTextBlock2">
+            <h3>Roles</h3>
+            <p>In this project, my main role was to
+              create the playable VR golf game
+              framework with the help from a
+              teammate. Once we have the golfing framework, we polish the experience further by implementing small features that will streamline the experience and improve player's immersion. I was also involved in
+              designing the visual effect and
+              user experience. I worked with my
+              group members to achieve a fun
+              and polished golf experience with
+              emergent gameplay elements.
+            </p>
+          </div>
+        </div>
+        <div class="para3">
+          <div class="AnalyseImageBlock3">
+            <img alt="XD" class="floatLeft" src="img/VRVRGolf/beach.jpg" width="800" height="450">
+            <img alt="XD" class="floatLeft" src="img/VRVRGolf/pyramid.jpg" width="800" height="450">
+            <br>
+            <img alt="XD" class="floatLeft" src="img/VRVRGolf/collider.png" width="800" height="450">
+            <label class="imageLabel"><strong>Fig.1 Large Collider switched when swung at high speed </strong></label>
+            <br>
+            <img alt="XD" class="floatLeft" src="img/VRVRGolf/scene1.png" width="800" height="450">
+      </div>
+            <div class="AnalyseTextBlock3">
+              <h3>Process</h3>
+              <p>We started with designing the concept of our experience. We decided to produce a relax and fun experience that allows the player to explore around the landscape.
+                We landed on the idea of a golf game that allows player to teleport to where the ball landed after they hit. The teleportation towards the ball serve as a form of movement mechanic.<p>
+                  <p>In the Unity Engine, we implemented our golfing framework with the help of Oculus SDK. At first, we can only rotate our head to look around.
+                    We then experiment with scripts that enable grabing, detecting keypressed and teleportation. Afterwards, we started defining our own physical limitations to Unity physics to make the experience easier. Finally, we integrate our
+                    environmental assets and interactable objects into the scene.<p>
+                      <br>
+                      <h3>Problem + Reflection</h3>
+                      <p>One of the interesting challenge is to reduce the difficulty in golfing. The sense of distance in VR is not easy to learn, it is quite difficult to hit the ball to where you want exactly.
+                        Most of the time. The player is not able to hit the ball with their small golfing club.
+                        Therefore we experiment with the idea of enlarging the golf club collider at the moment of high-speed swing. (See Fig. 1)
+                        When the golf club head is swung at a speed greater than the threshold, we switch the physical collider on the club to one with much larger size, so that as long as the player swing in the general direction, the ball is hit
+                        with an accurate angle perpendicular to the club head. </p>
+                      <br><br>
+                      <h3>Outcome + Reflections</h3>
+                      <p>While we were able to finish the playable
+                        version of the game on a tight schedule,
+                        there are still flaws and space for further
+                        amendment for VRVR Golf.
+                        To start with, more dynamic tools to hit the
+                        ball with would be a great addition to
+                        enhance the freedom and reinforce the
+                        emergent gameplay.
+                        Furthermore, I would like to improve VRVR
+                        Golf to be a more completed experience by
+                        adding different modes of gameplay such
+                        as story campaign, competitive local
+                        multiplayer or even a level editor. I am also
+                        looking forward to designing more levels
+                        with beautiful environments</p>
+                      <p>In this project, I have learned the best practices for producing VR experiences that will prevent loss of immersion.
+                        For example, I am aware that the scaling and placement of objects can easily affect the player. If we place an object in front of player's face or even inside the player's avatar, the immersion is greatly reduced.</p>
+                      <p>Despite the imperfections, this project is the most fun I have had throughout my program in SFU. I look forward to work in another VR project. </p>
+            </div>
+          </div>
+          <div class="ImageContainer">
+            <div class="projectImages">
+              <img alt="XD" class="floatLeft endingImage" src="img/VRVRGolf/scene4.png" width="800" height="450">
+          </div>
+              <div class="projectImages">
+                <img alt="XD" class="floatLeft endingImage" src="img/VRVRGolf/VolcanoScreenshot.png" width="800" height="450">
+          </div>
+              </div>
+              <div class="ImageContainer">
+                <div class="projectImages">
+                  <img alt="XD" class="floatLeft endingImage" src="img/VRVRGolf/scene8.png" width="800" height="450">
+          </div>
+                  <div class="projectImages">
+                    <img alt="XD" class="floatLeft endingImage" src="img/VRVRGolf/scene7.png" width="800" height="450">
+          </div>
+                  </div>
+                  <!-- <div class="ImageContainer">
+                <div class="projectImages">
+                  <img alt="XD" class="floatLeft" src="img/VRVRGolf/scene8.png" width="800" height="450">
+          </div>
+                  <div class="projectImages">
+                    <img alt="XD" class="floatLeft" src="img/VRVRGolf/scene7.png" width="800" height="450">
+          </div>
+                  </div> -->
+                </div>
+
+
+
+
+
+                <!--Content-->
+
+                <!--End Of Content-->
+
+                <!--footer bar-->
+
+
+
+                <div id="footer">
+                  <p>
+                    <a href="Styleguide.HTML">StyleGuide </a>
+                    <a href="citation.html">Citation </a>
+                    <a href="https://github.com/kenny388/IAT-339-P03">GitRepository</a>
+                  </p>
+                </div>
+
+                <script src="jquery-3.3.1.js"></script>
+
+                <script src="dropbtn.js"></script>
+                <script src="showButton.js"></script>
+                <script src="shrink.js"></script>
+
+
+</body>
+
+</html>
